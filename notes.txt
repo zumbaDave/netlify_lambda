@@ -1,0 +1,17 @@
+need to create configure file called netlify.toml
+we won't be able to serve without having this file
+   inside of if we put
+     [build]
+        functions = "lamba"
+
+make a functions folder
+inside of there, the name of the files have to be the same name as the function
+
+once we code our function
+in node, npm run lambda-serve
+this will create lambda folder that has the functions in it
+
+google search git oath registration then go to first link, then make a new application to get following
+keys
+    const API_CLIENT_ID = "668f2e8136976ce3a380";
+    const API_CLIENT_SECRET = "9cc90584fd83a632206326f3c141634dfa113eee";
